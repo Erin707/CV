@@ -87,24 +87,20 @@ Contact {#contact}
 ```{r class.source="contact"}
 CV %>% print_contact_info()
 ```
-- <i class="fa fa-phone"></i> 64 022-598-0546
+- <i class="fa fa-phone"></i> +64 022-598-0546
 \
 
 Data Analysis {#skills}
 --------------------------------------------------------------------------------
 
 
-**Highly experienced in**
+**Experienced in**
 
 
 - Propensity Score Matching 
 - Confirmatory Factor Analysis
 - Structural Equation Modelling
 - Measurement Invariance
-
-**Experience with**
-
-
 - Item Response Theory
 - Data Visualisation
 
@@ -178,7 +174,7 @@ CV %<>% print_section('teaching_positions')
 
 
 
-Selected Publications, Posters, and Talks {data-icon=book}
+Publications, Posters, and Talks {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
