@@ -9,7 +9,7 @@ params:
     value: true
 output:
   pagedown::html_resume:
-    css: ['dd_cv.css', 'resume']
+    css: ['dd_cv.css', 'resume','custom.css']
     self_contained: true
 ---
 ```{r, include=FALSE}
@@ -58,7 +58,7 @@ img {
 }
 ```
 
-```{r class.source="img", echo=FALSE,out.width= "90%", out.extra='style="float:left; padding:5px"'}
+```{r class.source="img", echo=FALSE,out.width= "100%", out.extra='style=""'}
 knitr::include_graphics("Avatar.jpg")
 ```
 
@@ -74,12 +74,6 @@ if(params$pdf_mode){
 
 
 \
-\
-\
-\
-\
-
-
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -87,23 +81,24 @@ Contact {#contact}
 ```{r class.source="contact"}
 CV %>% print_contact_info()
 ```
+- <i class="fa fa-github"></i> /Erin707
 - <i class="fa fa-phone"></i> +64 022-598-0546
+
+\
+\
 \
 
 Data Analysis {#skills}
 --------------------------------------------------------------------------------
 
+  - Propensity Score Matching 
+  - Confirmatory Factor Analysis
+  - Structural Equation Modelling
+  - Measurement Invariance
+  - Item Response Theory
+  - Data Visualisation
 
-**Experienced in**
-
-
-- Propensity Score Matching 
-- Confirmatory Factor Analysis
-- Structural Equation Modelling
-- Measurement Invariance
-- Item Response Theory
-- Data Visualisation
-
+\
 
 
 
