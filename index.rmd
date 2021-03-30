@@ -98,6 +98,7 @@ Data Analysis {#skills}
   - Item Response Theory
   - Data Visualisation
   - Database
+  - MySQL
 
 \
 
